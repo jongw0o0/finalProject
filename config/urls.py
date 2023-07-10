@@ -16,7 +16,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from tourresult import views
 from mainpage.views import home
 
 urlpatterns = [
@@ -27,7 +26,7 @@ urlpatterns = [
     path('tourlist/', include('tourlist.urls')),
     path('classification/', include('classification.urls')),
     path('tourselect/', include('tourselect.urls')),
-    path('tourresult/', include('tourresult.urls')),
+    # path('tourresult/', include('tourresult.urls')),
     path('tourdetail/', include('tourresult.urls')),  # tourdetail 안에서 상세페이지 나누기
 
 

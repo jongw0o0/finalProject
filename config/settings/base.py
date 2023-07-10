@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-x$rj56j5f)iv!4(d3atyl#enws&5qs@+go^sglue3)mdd-&y#(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['52.78.46.115']  # ip 넣기
 
 

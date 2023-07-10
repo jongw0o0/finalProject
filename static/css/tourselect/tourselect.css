@@ -53,15 +53,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container .hero2{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-80%, -50%);
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .container .hero h2{
     font-size: 60px;
     margin-bottom: 20px;
@@ -83,22 +74,6 @@
     transition: all .4s;
 }
 
-.container .hero2 button{
-    background: none;
-    border: 2px solid navy;
-    color: white;
-    padding: 15px 20px;
-    border-radius: 20px;
-    margin-top: 30px;
-    outline: none;
-    cursor: pointer;
-    transition: all .4s;
-}
-
 .container .hero button:hover{
-    background-color: navy;
-}
-
-.container .hero2 button:hover{
     background-color: navy;
 }
